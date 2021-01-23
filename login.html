@@ -53,17 +53,21 @@
                     </div>
                        
                     </p>
-                    <label>
-                        <img id="ico1" class="ico" src="img/user.svg" alt="#" />
-                        <input name="username" type="text" value="$(username)" placeholder="Username" />
-                    </label>
+                    
+var config = {
 
-                    <label>
-                        <img id="ico2" class="ico" src="img/password.svg" alt="#" />
-                        <input name="password" type="hidden" placeholder="Password" />
-                    </label>
+loginvc : "Masukkan Kode Voucher kemudian klik Connect.",
+loginup : "Masukkan Username dan Password <br> kemudian klik Connect.",
+voucherCode : "Kode Voucher",
+setCase : "none", // lowercase, uppercase or none
+defaultMode : "voucher", // voucher or member
+theme : "default", // default, dark, lite
 
-                    <input type="submit" value="Connect" />
+// status expire
+
+url : "https://demo.mikhmon.online", // url server Mikhmon
+SessionName : "demo",
+                }
 
                 </form>
                 <p class="info bt">Powered by MikroTik RouterOS</p>
